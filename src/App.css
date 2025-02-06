@@ -93,7 +93,6 @@ h1 {
   background-color: #5a9954;
 }
 
-* Dark Mode Styles */
 .App.dark-mode {
   background-color: #121213;
   color: #ffffff;
@@ -120,7 +119,7 @@ h1 {
   background-color: #4a7c46;
 }
 
-/* Dark Mode Toggle Button */
+
 .dark-mode-toggle {
   margin: 10px;
   padding: 10px 20px;
