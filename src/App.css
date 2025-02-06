@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.cell.green {
+  background-color: #6aaa64;
+  color: white;
+}
+
+.cell.yellow {
+  background-color: #c9b458;
+  color: white;
+}
+
+.cell.gray {
+  background-color: #787c7e;
+  color: white;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 5px;
+}
+
+.keyboard button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #eee;
+  text-transform: uppercase;
+}
+
+.keyboard button:hover {
+  background-color: #ddd;
+}
+
+.message {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.new-game-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #6aaa64;
+  color: white;
+  border: none;
+}
+
+.new-game-button:hover {
+  background-color: #5a9954;
+}
+
+* Dark Mode Styles */
+.App.dark-mode {
+  background-color: #121213;
+  color: #ffffff;
+}
+
+.App.dark-mode .cell {
+  border-color: #3a3a3c;
+}
+
+.App.dark-mode .keyboard button {
+  background-color: #818384;
+  color: #ffffff;
+}
+
+.App.dark-mode .keyboard button:hover {
+  background-color: #6a6a6c;
+}
+
+.App.dark-mode .new-game-button {
+  background-color: #538d4e;
+}
+
+.App.dark-mode .new-game-button:hover {
+  background-color: #4a7c46;
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #538d4e;
+  color: white;
+  border: none;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #4a7c46;
+}
